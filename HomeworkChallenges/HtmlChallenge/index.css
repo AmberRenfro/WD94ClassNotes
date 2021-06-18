@@ -1,0 +1,33 @@
+h1 {color: purple;
+font-weight: bold;}
+
+.wrapper{
+    display:flex;
+    height: 600px;
+    margin-top: 300px;
+    width: fit-content;
+    margin-left: 15px;
+}
+
+.wrapper > div:nth-child(1) {
+    flex: 1;
+}
+
+.wrapper > div:nth-child(2) {
+    flex: 1;
+}
+
+
+.container {
+    color: green;
+
+}
+
+*{background-color: black;}
+
+.it {
+    font-style: italic;
+}
+
+
+
